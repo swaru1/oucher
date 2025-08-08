@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  background-color: rgb(16, 16, 16);
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+nav {
+  color: white;
+  height: 60px;
+  width: 100;
+  display: flex;
+  text-transform: capitalize;
+  border-bottom: 2px solid white;
+}
+
+.nav-a {
+  height: 100%;
+  width: 46%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vh;
+}
+
+#nav-a1 h3 {
+  color: rgb(246, 244, 244);
+  padding-left: 18px;
+  z-index: 1;
+  position: relative;
+  text-transform: lowercase;
+}
+
+#nav-a1 h3::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 12px;
+  border: 3px solid rgb(47, 241, 47);
+  border-radius: 50%;
+  z-index: -1;
+}
+#nav-a2 {
+  display: flex;
+  gap: 4vw;
+}
+
+#nav-a2 a {
+  text-decoration: none;
+}
+
+.nav-b {
+  height: 100%;
+  width: 64%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 1vw;
+  font-size: 2vh;
+  padding-right: 2vw;
+}
+
+.nav-b a {
+    text-decoration: none;
+}
+#center {
+  height: 55%;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  gap: 5px;
+}
+
+#c1 {
+  background-color: aquamarine;
+  height: 100%;
+  width: 50%;
+}
+
+#c2 {
+  background-color: rgb(25, 104, 78);
+  height: 100%;
+  width: 50%;
+}
+
+#bottom {
+  margin-top: 5px;
+  height: 35%;
+  display: flex;
+  gap: 5px;
+}
+
+#b1 {
+  background-color: wheat;
+  height: 100%;
+  width: 30%;
+}
+
+#b2 {
+  background-color: violet;
+  height: 100%;
+  width: 70%;
+}
